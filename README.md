@@ -13,15 +13,15 @@ This is a first project in bootcamp class.  The goal was to refactor the html/cs
 -Typos were fixed
 -Alts were added for images
 
-##Challenges and Opportunities
+## Challenges and Opportunities
 
 There was some code that was easy to fix and immediately noticeable.  There was also a fair amount of trial and error when trying to change the classes on the tags to consolidate the CSS.
 I would have liked to consolidate more of the styling but on several attempts, I created other problems I was unable to solve.
 Each mistep was an opportuity to learn more about how the code works.  I enjoyed the process and look forward to learning more. 
 Github was by far the biggest distraction to completing the project sooner.  
 
-##Credits
+## Sources/References
 
-I referred back to my prework modules and the git help page to confirm my git process was correct 
-I referred to the first week class videos
-I referred to w3schools for basic reference on the html and css structure 
+Prework modules and the git help page to confirm my git process was correct.
+First week class videos helped.
+w3schools website for basic reference on the html and css structure.
