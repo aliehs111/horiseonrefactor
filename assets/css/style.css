@@ -3,6 +3,50 @@
     padding: 0;
     margin: 0;
 }
+/* Add the following styles to position the aside on the right side */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content {
+    width: calc(75% - 20px); /* 75% width minus 20px margin */
+    margin-bottom: 20px;
+}
+
+.benefits {
+    padding: 20px;
+    width: 20%;
+    height: 980px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    color: #ffffff;
+    position: sticky;
+    top: 2px;
+    margin-top: -680px; /* Adjust this value as needed */
+}
+
+#back-to-top {
+    display: none; /* Initially hide the link */
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    color: #2a607c;
+    font-size: large;
+    z-index: 1000;
+    text-decoration: none; /* Remove underline */
+}
+
+#back-to-top.active {
+    display: block; /* Show the link when active */
+    color: #2a607c;
+    font-size: large;
+}
+
+  
+
 
 body {
     background-color: #d9dcd6;
@@ -76,18 +120,14 @@ p {
 }
 
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-    margin-bottom: 32px;
-    color: #ffffff;
-
+    width: 20%; /* Adjust as needed */
+    padding: 20px; /* Add spacing around content */
+    background-color: #2589bd; /* Optional background color */
+    color: #ffffff; /* Optional text color */
+    position: sticky;
+    top: 20px; /* Adjust as needed */
 }
+
 /*
 removed redundant styling for asside elements and put them in .benefits above
 */
