@@ -1,183 +1,172 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-/* Add the following styles to position the aside on the right side */
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .content {
-    width: calc(75% - 20px); /* 75% width minus 20px margin */
-    margin-bottom: 20px;
+  width: calc(75% - 20px); /* 75% width minus 20px margin */
+  margin-bottom: 20px;
 }
 
+/* consolidates all the same styling for each aside article to one class called be */
 .benefits {
-    padding: 20px;
-    width: 20%;
-    height: 980px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-    color: #ffffff;
-    position: sticky;
-    top: 2px;
-    margin-top: -680px; /* Adjust this value as needed */
+  padding: 20px;
+  width: 20%;
+  height: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+  color: #ffffff;
+  position: sticky;
+  top: 2px;
+  margin-top: -680px;
 }
-
-#back-to-top {
-    display: none; /* Initially hide the link */
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    color: #2a607c;
-    font-size: large;
-    z-index: 1000;
-    text-decoration: none; /* Remove underline */
-}
-
-#back-to-top.active {
-    display: block; /* Show the link when active */
-    color: #2a607c;
-    font-size: large;
-}
-
-  
-
 
 body {
-    background-color: #d9dcd6;
+  background-color: #d9dcd6;
 }
 
 .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
 }
 
 .header h1 {
-    display: inline-block;
-    font-size: 48px;
+  display: inline-block;
+  font-size: 48px;
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+  color: #d9dcd6;
 }
 
 .header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
 
 .header nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+  display: inline-block;
+  margin-left: 25px;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .float-left {
-    float: left;
-    margin-right: 25px;
+  float: left;
+  margin-right: 25px;
 }
 
 .float-right {
-    float: right;
-    margin-left: 25px;
+  float: right;
+  margin-left: 25px;
 }
 
 .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
+/* add margin on right and position sticky to get aside to stay on right side */
 .benefits {
-    width: 20%; /* Adjust as needed */
-    padding: 20px; /* Add spacing around content */
-    background-color: #2589bd; /* Optional background color */
-    color: #ffffff; /* Optional text color */
-    position: sticky;
-    top: 20px; /* Adjust as needed */
+  width: 20%;
+  padding: 20px;
+  background-color: #2589bd;
+  color: #ffffff;
+  position: sticky;
+  top: 20px;
+  margin-right: 20px;
 }
 
 /*
 removed redundant styling for asside elements and put them in .benefits above
 */
 h3 {
-    text-align: center;
-} 
+  text-align: center;
+}
 
+/* consolidates the aside section elements to one class */
 .benefit {
-    margin-bottom: 10px;
-    text-align: center;
-    padding-bottom: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
-
-
+/* consolidates the image in each of the aside articles to one class */
 .benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
-
-.search-engine-optimization, .online-reputation-management, .social-media-marketing  {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+/* consolidates all the section articles to the same css which was identical and listed separately before */
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
 }
 
-
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
+/* consolidates all the images to same css which was identical and listed separately before */
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+  max-height: 200px;
 }
 
-
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/* consolidates all the h2 elements in the different classes of the articles to same css which was identical and listed separately before */
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
 }
-
 
 footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
 
 footer h4 {
-    font-size: 20px;
+  font-size: 20px;
 }

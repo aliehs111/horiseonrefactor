@@ -25,3 +25,7 @@ Github was by far the biggest distraction to completing the project sooner.
 Prework modules and the git help page to confirm my git process was correct.
 First week class videos helped.
 w3schools website for basic reference on the html and css structure.
+
+## Links and Visuals
+Github Repository: https://github.com/aliehs111/horiseonrefactor
+![Alt text](/assets/Screenshot%202023-09-09%20at%203.13.14%20PM.png)
